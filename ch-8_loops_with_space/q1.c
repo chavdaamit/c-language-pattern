@@ -2,27 +2,28 @@
 
 int main(){
 
-
 int num=5;
 
 
-    for(int i=1;i<=num;i++){
+for (int i=1; i<=num;i++){
 
-    for(int j=1;j<=num-i;j++){
-            printf(" ");
-        }
-    for (int k=i;k>=1;k--){
-        printf("%d",k);
-    }
-    printf("\n");
+for (int j=1; j<=num-i;j++){
 
+    printf(" ");
+}
 
-    }
+for(int k=i; k>=1;k--){
 
+    printf("%d",k);
+}
 
 
+printf("\n");
+
+}
 
 
-return 0;
 
+
+    return 0;
 }

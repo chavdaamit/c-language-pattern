@@ -1,28 +1,29 @@
-
 #include <stdio.h>
 
-
 int main(){
-
 
 int num=5;
 
 
-for(int i=1;i<=num;i++){
 
+for (int i=5; i>=1; i--){
 
-    for(int j=1;j<=num-i;j++){
+    for(int j=1;j<i;j++){
         printf(" ");
     }
 
-    for(int k=1;k<=i;k++){
 
-    printf("%d",k);
-    
+    for(int k=i; k<=num; k++){
+        printf("%d",k);
+    }
+
+    printf("\n");
+
 }
-printf("\n");
 
 
-}
+
+
+
     return 0;
 }
